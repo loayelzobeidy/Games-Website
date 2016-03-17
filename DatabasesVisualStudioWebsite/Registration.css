@@ -1,0 +1,259 @@
+﻿body {
+  background: url('../blue.jpg') no-repeat center top ;
+  background-size:100% 400%;
+  font-family: Arial;
+  color: black;
+  font-size:16px;
+  height:auto;
+}
+
+div
+{
+    display:block;
+}
+
+#header {
+    height: 300px;
+    
+}
+#content
+{
+	position : absolute;
+	top : 25%;
+    left : 8%;
+	width : 80%;
+	padding : 0px;
+}
+
+.main{
+    margin:0 auto;
+    max-width:90%;
+     padding: 0 ;
+   
+}
+ #logindiv
+ {
+     position:absolute;
+     left:35%;
+     top:-20%;
+     width:57%;
+     height:10%;
+     background-color:#ccc;
+     border:1px solid;
+     border-radius:5px;
+ }
+ #LoginButton
+ {
+     position :absolute;
+     top:20%;
+     left:95%;
+     cursor:pointer;
+ }
+ .loginDivElements
+ {
+     position:relative;
+     top:10px;
+     left:60px;
+ }
+
+ ul {
+    overflow: hidden;
+    background:linear-gradient(to bottom, #D3D8E8, #D3D8E8) no-repeat bottom / 100% 4px, linear-gradient(to bottom, #D3D8E8, #D3D8E8) top / 100%;
+    border-radius: 5px 5px 0 0;
+    list-style:none;
+   
+}
+
+ li {
+     display: inline-block;
+    text-transform: uppercase;
+
+        box-shadow: 1px 0 0 #D1D3D7;
+    border-bottom: 4px solid #D1D3D7;
+    letter-spacing: normal;
+ }
+
+
+#MainNav {
+   position:relative;
+   display:block;
+    top: 10%;
+    left: 3.5%;
+   padding:0;
+   margin:0 auto;
+   width:93%
+}
+#MainNav li{
+     box-shadow: 1px 0 0 #D1D3D7;
+    border-bottom: 4px solid #D1D3D7;
+    left:20%;
+}
+
+#MainNav a{
+        padding: 0 1.5em;
+    font-size: 1em;
+    line-height: 34px;
+    transition: color 0s;
+        font-weight: bold;
+    color:black;
+}
+#MainNav ul ul {
+	position:absolute;
+        
+	visibility : hidden;
+}
+#MainNav ul li:hover{
+	background-color:grey
+}
+#MainNav ul li:hover ul {
+	visibility :visible;
+}
+#MainNav ul li a,visited{
+	color:#333;
+	display: block;
+	padding : 5px;
+	text-decoration: none;
+}
+#btnlogin {
+         padding: 0 1.5em;
+    font-size: 1em;
+    line-height: 34px;
+    transition: color 0s;
+        font-weight: bold;
+    color:black;
+    align-content:center;
+
+}
+
+
+#imagebox{
+    background-color:#3d4456;
+    padding:20px;
+     margin-top:-12px; 
+	 border:1px solid;
+	 border-radius:5px solid;
+	 float:right;
+}
+
+.inner{
+    background-color: #a3a9b4;
+    height: 60%;
+    position: relative;
+    
+}
+
+
+#registration{
+    
+ background-color:#D3D8E8;
+ border: 2px solid #ccc;
+  font-size:16px;
+  border-radius:10px;
+  float :right;
+  height:60%;
+ 
+}
+
+#leftreg{
+        width: 51%;
+		  height:60%;
+     background-color:#D3D8E8;
+  font-size:16px;
+    margin: 0 0 10px 0;
+    padding: 0 2%;
+    position: relative;
+    top: 3px;
+    left: 4px;
+  float:left ;
+ 
+}
+
+#rightreg{
+     height:60%;
+        width: 40%;
+     background-color:#D3D8E8;
+  font-size:16px;
+    margin: 0 0 10px 0;
+    padding: 0 2%;
+    position: relative;
+    top: 3px;
+    right: 4px;
+    float:right;
+  
+}
+
+.field{
+	
+    width: 46%;
+    float: left;
+    margin: 0 0 10px 0;
+    padding: 0 2%;
+    position: relative;
+.lbl{
+        cursor: pointer;
+            display: block;
+    font-size: 1.1em;
+    padding: 0 0 5px 0;
+    color:#222;
+}
+.fieldset{
+    
+   border:none;
+   background:#808080;
+   border:1px solid;
+   border-radius:5px; 
+}
+#lblLoginEmail
+{
+    font-size:5px;
+     
+   font-family :"Comic Sans  MS", cursive;
+   
+   
+    
+}
+#lblLoginPassword
+{
+    font-size:5px;
+     
+   font-family :"Comic Sans  MS", cursive;
+   
+   
+    
+}
+#txtLoginEmail
+{
+    
+    font-size:5px;
+    border:1px solid;
+   border-radius:5px; 
+   font-family :"Comic Sans  MS", cursive;
+  
+    
+}
+#txtLoginPassword
+{
+        
+    font-size:5px;
+    border:1px solid;
+   border-radius:5px; 
+   font-family :"Comic Sans  MS", cursive;
+  
+}
+#status
+{
+	font-size: 20px;
+	font-weight : bold;
+	font-family :"Comic Sans  MS", cursive;
+	
+}
+#status_add
+{
+	font-size: 20px;
+	font-weight : bold;
+	font-family :"Comic Sans  MS", cursive;
+	
+}
+.Textbox{
+    border-radius:7px;
+}

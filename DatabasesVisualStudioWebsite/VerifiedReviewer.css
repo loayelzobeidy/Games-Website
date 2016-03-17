@@ -1,0 +1,245 @@
+﻿*
+{
+	margin:0px 0 0 0;
+	padding:0
+}
+
+
+body
+{
+	padding :0;
+	margin:0;
+	font-family :'Lato', serif;
+	font-size: 18px;
+	background: url('blue.jpg') no-repeat center top ;
+    overflow-x:hidden;
+	
+  
+}
+
+
+div
+{
+    display:block;
+}
+
+#header {
+    height: 20%;
+    
+}
+#content
+{
+	position : absolute;
+	top : 20%;
+    left : 7%;
+	width : 90%;
+	padding : 0px;
+}
+
+.main{
+    margin:0 ;
+    max-width:90%;
+     padding: 0 ;
+   
+}
+
+ #MainNav ul {
+    overflow: hidden;
+    background-color:#222;
+    border-radius: 10px 5px 0 0;
+    list-style:none;
+	height :30%;
+	position:relative;
+	top:2%;
+	box-shadow:#333;
+    left: 4%;
+    width:99%;
+}
+
+
+    
+ 
+
+
+#MainNav {
+   position:relative;
+   display:block;
+   font-size:3px;
+   font-family :"Comic Sans  MS", cursive;
+   left:-15%;
+   width : 53%;
+   padding:0;
+   margin:0 auto;
+    top: 1px;
+}
+#MainNav li{
+	display: inline-block;
+    text-transform: uppercase;
+
+   box-shadow: 1px 0 0 #333;
+    border-bottom: 4px solid #333;
+    letter-spacing: normal;
+     box-shadow: 1px 0 0 #333;
+    border-bottom: 4px solid #333;
+}
+
+#MainNav a{
+        padding: 0 1.5em;
+       
+    font-size: 5px;
+    line-height: 50px;
+    transition: color 0s;
+        font-weight: bold;
+    
+}
+#MainNav ul ul {
+	position:absolute;
+	visibility : hidden;
+}
+#MainNav ul li:hover{
+	background-color:grey
+}
+#MainNav ul li:hover ul {
+	visibility :visible;
+}
+#MainNav ul li a,visited{
+	color:#EEE;
+	display: block;
+	padding : 5px;
+	text-decoration: none;
+}
+
+
+
+.inner{
+    
+	width :100%;
+    height: 900px ;
+    position: relative;
+	border:1px solid;
+	border-radius:5px;
+	background-color:#222;
+    
+}
+
+
+.uppernav
+{   
+     position:relative;
+    left:42%;
+}
+.uppernav ul
+{
+	list-style : none;
+	padding:20px 0;
+	margin:0;
+	position :relative;
+	font-size : 20px;
+	font-family :"Comic Sans  MS", cursive;
+}
+.uppernav li 
+{
+	display:inline-block
+}
+.uppernav ul ul li
+{  
+margin :0;
+padding :0;
+position :relative;
+display:block
+}
+.uppernav ul ul
+{  
+margin :0;
+padding :0;
+position :absolute;
+display:inline-block
+}
+
+.uppernav ul li:hover{
+	background-color:#333
+}
+.uppernav ul ul {
+	position:absolute;
+	visibility : hidden;
+}
+.uppernav ul li:hover ul {
+	visibility :visible;
+}
+.uppernav ul li a,visited{
+	color:#ccc;
+	display: block;
+	padding : 5px;
+	text-decoration: none
+}
+
+
+.user_information_text
+{  
+	font-size: 20px;
+	font-weight : bold;
+	font-family :"Comic Sans  MS", cursive;
+	position : relative;
+	width : 40%;
+	top :10% ;
+	left : 47%;
+	color : #FFF;
+}
+
+.user_photo
+{
+	position : relative;
+	left :10%;
+}
+.upload
+{
+	position : absolute;
+	top:180%;
+	left:-40%;
+}
+
+.user_information
+{
+	background-color:#222;
+	height: 100%;
+    position:relative;
+    margin-top:0%;
+
+
+}
+
+#lbl_Upload
+{
+    position:absolute;
+    left:-600%;
+    top:-150%;
+    width:900%;
+}
+.upload_input
+{
+ background-color:#FFF;
+ color:#222;
+ position:absolute;
+ top:20%;
+ left:-600%;
+}
+
+.UserProfile
+{
+	color : #ccc;
+}
+
+.middle
+{
+	width :100%;
+	height :60%;
+	background-color:#233;
+    position:relative;
+    top:30%;
+	
+}
+
+
+
+
+

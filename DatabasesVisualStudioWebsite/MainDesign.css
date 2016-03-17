@@ -1,0 +1,194 @@
+﻿*
+{
+	margin:0;
+	padding:0
+}
+
+
+body
+{
+	padding :0;
+	margin:0;
+	font-family :'Lato', serif;
+	font-size: 18px;
+	background: url('GamesImages/wood.jpg') no-repeat center top ;
+	background-size : 1350px 2200px;
+  
+}
+
+
+div
+{
+    display:block;
+}
+
+#uppernav
+{
+    height:3%;
+    width:100%;
+    background-color:#333;
+}
+#header {
+    height: 300px;
+    
+}
+#content
+{
+	position : absolute;
+	top : 150px;
+    left : 200px;
+	width : 1400px;
+	padding : 0px;
+}
+
+.main{
+    margin:0 auto;
+    max-width:1000px;
+     padding: 0 ;
+   
+}
+
+ #MainNav ul {
+    overflow: hidden;
+    background-color:#222;
+    border-radius: 10px 5px 0 0;
+    list-style:none;
+	height :43px;
+	position:relative;
+	top:-0.4px;
+	border-shadow:#333;
+}
+
+
+    
+ 
+
+.btnlogin
+{  
+    cursor:pointer;
+    position:absolute;
+	background:transparent;
+    background-image:url(icons/users81.png);
+	
+	background-repeat:no-repeat;
+    border:none;
+    text-decoration:none;
+	padding:40px 30px;
+	height:20px;
+	margin:50px;
+	left:1090px;
+	top:70px;
+}
+
+#comm
+{
+    font-size:50px;
+    position:relative;
+    left:0%;
+}
+#description
+{
+    width:50%;
+    position:relative;
+    left:10%;
+    top:10%;
+}
+#Community
+{
+    height:100px;
+    width:60%;
+    position:relative;
+    left:320px;
+    top:100px;  
+
+}
+#CommunityDiv
+{
+    position:relative;
+      width:100%;
+      top:5%;
+      left:5%;
+}
+#btn_Join
+{
+     cursor:pointer;
+    position:absolute;
+    left:30%;
+    top:1%;
+    border:none;
+    background:transparent;
+    font-size:20px;
+    color:black;
+}
+#btn_Topic
+{
+        cursor:pointer;
+    position:absolute;
+    left:45%;
+    top:1%;
+    border:none;
+    background:transparent;
+     font-size:20px;
+    color:black;
+}
+#MainNav {
+   position:relative;
+   display:block;
+   left:-160px;
+   width : 650.1px;
+   font-size:3px;
+   font-family :"Comic Sans  MS", cursive;
+   padding:0;
+   margin:0 auto;  
+     
+}
+#MainNav li{
+	display: inline-block;
+    text-transform: uppercase;
+
+   box-shadow: 1px 0 0 #333;
+    border-bottom: 4px solid #333;
+    letter-spacing: normal;
+     box-shadow: 1px 0 0 #333;
+    border-bottom: 4px solid #333;
+}
+
+#MainNav a{
+        padding: 0 1.5em;
+    font-size: 5 px;
+    line-height: 34px;
+    transition: color 0s;
+        font-weight: bold;
+    
+}
+#MainNav ul ul {
+	position:absolute;
+	visibility : hidden;
+}
+#MainNav ul li:hover{
+	background-color:grey
+}
+#MainNav ul li:hover ul {
+	visibility :visible;
+}
+#MainNav ul li a,visited{
+	color:#EEE;
+	display: block;
+	padding : 5px;
+	text-decoration: none;
+}
+
+
+
+.inner{
+    
+	width:110%;
+    height: 1900px;
+    position: relative;
+	border-size:5px solid;
+	border-radius:5px;
+	background-color:#222;
+    
+}
+
+
